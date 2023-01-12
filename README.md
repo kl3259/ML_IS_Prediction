@@ -9,7 +9,7 @@
 * Standardization of numerical variables were conducted. 
 
 ### Feature Selection
-* Consider 3 combinations for all classifiers: 56 clinical features, 26 features selected by XGBoost (feature importance greater than average value), and the top10 important feautures by XGBoost. 
+* Consider 3 combinations for all models: 56 clinical features, 26 features selected by XGBoost (feature importance greater than average value), and the top10 important feautures by XGBoost. 
 * Applied 5-fold cross validation. 
 
 ### Predictions
