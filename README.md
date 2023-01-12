@@ -18,7 +18,7 @@
 
 ## Files provided
 * feature_selection.py: Functions for feature selection based on XGBoost F-score
-* instantiate.py: A python script that define all the classifiers
+* instantiate.py: A python script that define all the regressors
 * build_metric.py: Functions for choosing scoring and evaluating metrics
 * stacking.py: Helper functions for building stacking ensemble model
 * train_loop.py: A function to train specific type of regressor on different training feautures
