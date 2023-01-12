@@ -104,3 +104,6 @@ for name in seq:
         p = 2,
         weights = 'uniform'
     )
+
+if __name__ == "__main__":
+    pass

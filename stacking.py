@@ -265,3 +265,5 @@ def applyGridSearch(estimator_ , parameters_, data_, label_):
     return reg.best_estimator_, reg.best_score_, reg.best_params_, reg.cv_results_
 
 
+if __name__ == "__main__":
+    pass

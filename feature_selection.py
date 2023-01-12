@@ -67,7 +67,9 @@ def pick_top10(data_, va_sorted_):
     va_sorted_: tuple of feature name and its importance sorted in decreasing order
 
     Output:
-    
+    feature_all: design matrix with all features
+    feature_filtered: design matrix with selected features
+    feature_top10: design matrix with top10 important features
     '''
     filtered_list = [item[0] for item in va_sorted_]
     top10_list = [item[0] for item in va_sorted_[:10]]
@@ -75,3 +77,6 @@ def pick_top10(data_, va_sorted_):
     feature_all = data_
     feature_filtered = data_[filtered_list]
     return feature_all, feature_filtered, feature_top10
+
+if __name__ == "__main__":
+    pass

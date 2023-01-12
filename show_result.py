@@ -59,4 +59,5 @@ def show_evaluation_metrics_alt(curr_comb, grid_search, best_param, curr_method 
     print(f'-----------------------------------------------------------------------------------------------------------------------------------------')
     return evaluation_metric_df
 
-
+if __name__ == "__main__":
+    pass

@@ -75,3 +75,6 @@ def plot_roc_curve_alt(regname, y_true_all, rf_all_testing, rf_xgboost_testing, 
     if save:
         fig.savefig(mydir_ + title + ".png", format = "png")
     pass
+
+if __name__ == "__main__":
+    pass

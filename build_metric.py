@@ -28,6 +28,7 @@ def RMSE(y_true, y_pred):
 
 scoring = {"MAE": make_scorer(mean_absolute_error), "R2": "r2", "Eps_Accu": make_scorer(eps_accuracy_abs, greater_is_better = True)}
 
-
+if __name__ == "__main__":
+    pass
 
 

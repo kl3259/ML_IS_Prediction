@@ -30,3 +30,5 @@ Output/feature_selected_sfm_dict_original_ver1.pkl
 Output/feature_selected_sfm_dict_ver3.pkl
 Output/feature_selected_sfm_dict_ver5.pkl
 Output/feature_selected_sfm_list.pkl
+doc/mer_report.md
+fig/prediction_result_scatterplot.zip
